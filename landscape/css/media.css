@@ -1,0 +1,75 @@
+   
+@media only screen and (max-width: 1024px){
+    .top_menu{
+        padding: 0 3%;
+    }
+    .title h1{
+        font-size: 2.2em;
+    }
+    .title h2{
+        font-size: 1.5rem;
+    }
+    .btn{
+        font-size: .8em;
+    }
+    .wrap{
+        justify-content: center;
+    }
+    .card{
+        padding: 0 15px 25px;
+        box-sizing: border-box;
+    }
+    .title{
+        padding: 0 5%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .footer_content{
+        flex-flow: column;
+        padding: 30px 0;
+        padding-left: 25px;
+    }
+    .footer_content p{
+        margin-bottom: 25px;
+        font-size: .8em;
+    }
+    nav{
+        display: none;
+    }
+    .top_menu label{
+        position: static;
+        display: block;
+    }
+    .toggle_menu{
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 480px){
+    .top_menu p{
+        font-size: 2rem;
+    }
+    .btn{
+        width: 55%;
+    }
+    .card{
+        padding-bottom: 8%;
+    }
+    .title h1{
+        font-size: 1.5em;
+    }
+    .title h2{
+        font-size: 1.2rem;
+    }
+    .title p{
+        font-size: 13px;
+    }
+    .subscribe .btn{
+        font-size: .7em;
+    }
+    .social_box{
+        font-size: 1.2em;
+        width: 50px;
+        height: 50px;
+        margin: 0 3%;
+    }
+}
